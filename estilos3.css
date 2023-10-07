@@ -1,0 +1,96 @@
+body {
+    padding: 0px;/* Formateando el padding de la página*/
+    margin: 0px;/*margin de la página*/
+   background-color:#FFFFFF;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CD5C5C;
+    
+
+}
+
+.encabezado img {
+    width: 120px;
+    margin: 0px 15px;
+    border-bottom: 1rem solid;
+
+}
+
+.encabezado-centro h1 {
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu {
+    background-color:black;
+    color: #643843;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu li a {
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #CD5C5C
+    ;
+}
+
+/* Style the product image */
+.product-image {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+/* Style the product details */
+.product-details {
+    text-align: left;
+}
+
+/* Style the product title */
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Style the product price */
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e44d26; /* Orange color for price */
+    margin-bottom: 20px;
+}
+
+/* Style the "Add to Cart" button */
+.add-to-cart-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+    background-color: #e44d26; /* Orange color on hover */
+}
